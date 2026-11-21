@@ -1,0 +1,22 @@
+{
+  "base_seed": 20261121,
+  "canaries_per_document": 4,
+  "chunk_width": 110,
+  "formats": [
+    "api_key",
+    "email",
+    "account_id",
+    "free_text"
+  ],
+  "mail_max_chars": 420,
+  "n_documents": 48,
+  "stages": [
+    "ingest",
+    "summarise",
+    "chunk",
+    "redact",
+    "translate",
+    "mail"
+  ],
+  "summary_keep": 5
+}

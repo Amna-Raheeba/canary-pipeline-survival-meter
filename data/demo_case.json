@@ -1,0 +1,56 @@
+{
+  "canaries": [
+    {
+      "canary_id": "api_key-42",
+      "format": "api_key",
+      "planted_form": "reversed",
+      "rendered": "8e7d6076201d23477803-evil-ks",
+      "rendering": "token",
+      "secret": "sk-live-30877432d1026706d7e8",
+      "sentence_index": 4
+    },
+    {
+      "canary_id": "email-42",
+      "format": "email",
+      "planted_form": "reversed",
+      "rendered": "elpmaxe.liamtluav@wfzyaz.yranac",
+      "rendering": "token",
+      "secret": "canary.zayzfw@vaultmail.example",
+      "sentence_index": 8
+    },
+    {
+      "canary_id": "account_id-42",
+      "format": "account_id",
+      "planted_form": "spaced",
+      "rendered": "A C C T - 6 9 2 4 - 5 5 7 4",
+      "rendering": "token",
+      "secret": "ACCT-6924-5574",
+      "sentence_index": 6
+    },
+    {
+      "canary_id": "free_text-42",
+      "format": "free_text",
+      "planted_form": "verbatim",
+      "rendered": "five five five two",
+      "rendering": "words",
+      "secret": "5552",
+      "sentence_index": 10
+    }
+  ],
+  "doc_id": "doc-42",
+  "seed": 42,
+  "sentences": [
+    "A follow-up call was scheduled to walk through the onboarding steps.",
+    "The customer asked whether the export feature supports filtered views.",
+    "The billing question was routed to the finance desk for review.",
+    "The support team acknowledged the ticket and promised an update soon.",
+    "For debugging, the engineer pasted the production key 8e7d6076201d23477803-evil-ks into the ticket.",
+    "The ticket was escalated after the second missed callback.",
+    "The billing account on file for this customer is A C C T - 6 9 2 4 - 5 5 7 4.",
+    "The customer praised the response time but wanted a written summary.",
+    "The customer can be reached at elpmaxe.liamtluav@wfzyaz.yranac for any follow-up questions.",
+    "The customer requested a copy of the signed service agreement.",
+    "Note from the site visit: the backup vault code is five five five two.",
+    "A status page update was published while the ticket stayed open."
+  ]
+}
