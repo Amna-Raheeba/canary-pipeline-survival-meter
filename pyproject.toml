@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "canary-pipeline-survival-meter"
+version = "0.1.0"
+description = "Stage-wise canary survival as a leakage audit for LLM data pipelines: plant labelled synthetic secrets, push them through summarise/chunk/redact/translate/mail stages, and measure which stage leaks each format and which stage falsely claims to have redacted it."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Amna Raheeba" }]
+
+[tool.setuptools]
+packages = ["canary_meter"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
